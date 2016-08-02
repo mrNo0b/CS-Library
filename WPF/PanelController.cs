@@ -122,7 +122,7 @@ public void PanelController(bool CloseAll)
 
 
 // used in PanelController methods
-// experimental - call GC to free up memory, hard collect
+// experimental - call GC to free up memory, force collect
 public static void RunGC()
 {
     Main.UpdateLayout();
