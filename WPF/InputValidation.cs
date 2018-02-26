@@ -1,6 +1,4 @@
-/// <summary>
-/// Allow only digits and '.' but not as first character
-/// </summary>
+/// <summary> Allow only digits and '.' but not as first character </summary>
 /// <param name="sender">TextBox</param>
 /// <param name="e">Key info</param>
 private void DigitsAndDotOnlyTextBox_PreviewKeyDown(object sender, KeyEventArgs e)
